@@ -1,0 +1,19 @@
+Generate Project
+npx expo-cli init tracks --yarn
+** Add C:\Users\{USER}\AppData\Local\Yarn\bin such as C:\Users\steph\AppData\Local\Yarn\bin to ENV
+
+yarn add react-navigation
+expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view
+yarn add react-navigation-stack @react-native-community/masked-view
+yarn upgrade @react-native-community/masked-view@0.1.10
+expo r -c
+expo start --tunnel
+
+Update package.json to start in tunnel mode directly
+    "start": "expo start --tunnel"
+
+
+git init
+git add *
+git commit -a -m 'Initial commit'
+git remote add origin git@github.com:username/repo.git 
