@@ -13,7 +13,12 @@ Update package.json to start in tunnel mode directly
     "start": "expo start --tunnel"
 
 
-git init
-git add *
-git commit -a -m 'Initial commit'
-git remote add origin git@github.com:username/repo.git 
+When crewating project in GitHub.
++ Select Public
++ And don't select anything else
+==> Will see the instruction
+git remote add origin https://github.com/khoakim/react_native_04_tracks-.git
+git branch -M main
+git push -u origin main
+
+*** git remote rm origin
