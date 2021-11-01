@@ -1,0 +1,2 @@
+1) Create all Screens with boiler content
+2) Set Authentication provider. Ex, if TrackCreateScreen wants to know if user is signed in or not, it will query AuthProvider for input
